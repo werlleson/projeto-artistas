@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0d0d0d;
+}
+.container-main2 {
+  width: 100%;
+  height: 660px;
+  background: var(--body-background);
+  color: var(--subtitle-color);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  color: var(--text-color);
+  font-family: "montserrat";
+}
+.container-main2-text {
+  height: 250px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.main2-text {
+  width: 435px;
+  height: 115px;
+  font-size: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main2-text h3 {
+  margin-bottom: 10px;
+}
+
+/* Numeros */
+.main2-numeros {
+  width: 310px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+
+  color: var(--text-color);
+}
+.main2-numeros h1 {
+  font-size: 50px;
+}
+/* Banner */
+.main2-banner {
+  display: flex;
+  justify-content: flex-end;
+}
+.main2-banner img {
+  width: 900px;
+  height: 220px;
+}

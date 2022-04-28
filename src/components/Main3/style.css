@@ -1,0 +1,69 @@
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0d0d0d;
+}
+.main3 {
+  width: 100%;
+  height: 930px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+  background: var(--body-background);
+  font-family: "montserrat";
+
+  color: var(--text-color);
+}
+.main3-title {
+  width: 960px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: justify;
+
+  background: -webkit-linear-gradient(
+    left,
+    var(--color-logo) 17%,
+    rgb(255, 255, 255) 0%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#linha-vertical {
+  height: 500px;
+  border-right: 1px solid rgb(121, 121, 121);
+}
+.container-main3 {
+  display: flex;
+  gap: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-colum {
+  display: flex;
+  flex-direction: column;
+}
+.card-colum {
+  width: 380px;
+  height: 330px;
+}
+.card-colum h2{
+  margin: 10px 0 0 ;
+}
+.card-colum svg{
+  margin-left: 140px;
+}
+.main3-paragrafo-row{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-top: 20px;
+}
